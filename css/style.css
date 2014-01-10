@@ -2,6 +2,7 @@ body {
 	padding: 0;
 	margin: 0;
 	background: #4EE9D0;
+	font-family: 'Mostra Nuova';
 }
 
 #diagram {
@@ -17,6 +18,77 @@ h1 {
 	color: white;
 }
 
+h2 {
+	font-family: 'Mostra Nuova';
+	font-weight: 100;
+	font-size: 5.5em;
+	color: #4EE9D0;
+}
+
+p {
+	font-family: 'Proxima Nova';
+	font-weight: 200;
+	font-size: 1.5em;
+	line-height: 1.3em;
+}
+
 #top {
 	padding: 100px 0;
 }
+
+section {
+	background-color: white;
+	padding: 6rem 0;
+  margin-bottom: 30em;
+	width: 100%;
+}
+
+.peaking-button {
+	border: 2px solid #4EE9D0;
+	border-radius: 8px;
+
+	cursor: pointer;
+  margin: 0 0 1.25rem;
+  position: relative;
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  padding-top: 0.5rem;
+  padding-bottom: 0.6rem;
+  width: 100%;
+  -webkit-transition: background-color 100ms ease-out;
+  -moz-transition: background-color 100ms ease-out;
+  transition: all 100ms ease-out;
+}
+
+.peaking-button:hover {
+  background-color:#1D79BB;
+  border-color: #4093CF;
+}
+
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+  h1 {
+    font-size: 6rem;
+  }
+  h2 {
+    font-size: 4rem;
+  }
+}
+
+@media only screen and (max-width: 40em) {
+  .row {
+    width: 95%;
+  }
+  h1 {
+    font-size: 3rem;
+    text-align: center;
+  }
+  h2 {
+    font-size: 3rem;
+    text-align: center;
+  }
+  section {
+    padding: 3rem 0;
+  }
+}
+
