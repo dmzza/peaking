@@ -90,7 +90,10 @@ section {
   section {
     padding: 3rem 0;
     margin-bottom: 0;
-    border-bottom: 4em solid #1D79BB;
+  }
+  .peaking-button {
+    background: #1D79BB;
+    border-color: #4093CF;
   }
   #diagram {
     position: absolute;
