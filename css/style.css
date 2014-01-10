@@ -89,6 +89,11 @@ section {
   }
   section {
     padding: 3rem 0;
+    margin-bottom: 0;
+    border-bottom: 4em solid #1D79BB;
+  }
+  #diagram {
+    position: absolute;
   }
 }
 
