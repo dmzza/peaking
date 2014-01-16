@@ -80,6 +80,11 @@ section {
   border-style: solid;
   border-color: hsla(170, 78%, 61%, 1);
   float: left;
+  transition: background 100ms ease-in-out;
+}
+
+.tile:hover, .tile:active {
+  background-color: hsla(170, 78%, 61%, 1);
 }
 
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
