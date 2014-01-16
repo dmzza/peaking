@@ -67,16 +67,16 @@ section {
 }
 
 .floor {
-  height: 300px;
-  width: 130%;
-  margin-left: -15%;
+  height: 460px;
+  width: 140%;
+  margin-left: -20%;
   overflow: hidden;
 }
 
 .tile {
-  width: 100px;
-  height: 100px;
-  border-width: 12px 0 0 12px;
+  width: 150px;
+  height: 150px;
+  border-width: 10px 0 0 10px;
   border-style: solid;
   border-color: hsla(170, 78%, 61%, 1);
   float: left;
@@ -120,12 +120,12 @@ section {
     /*position: absolute;*/
   }
   .floor {
-    height: 150px;
+    height: 185px;
   }
   .tile {
-    width: 50px;
-    height: 50px;
-    border-width: 3px;
+    width: 60px;
+    height: 60px;
+    border-width: 5px 0 0 5px;
   }
 }
 
