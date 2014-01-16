@@ -76,7 +76,9 @@ section {
 .tile {
   width: 100px;
   height: 100px;
-  border: 6px solid white;
+  border-width: 12px 0 0 12px;
+  border-style: solid;
+  border-color: hsla(170, 78%, 61%, 1);
   float: left;
 }
 
@@ -110,7 +112,7 @@ section {
     border-color: #4093CF;
   }
   #diagram {
-    position: absolute;
+    /*position: absolute;*/
   }
   .floor {
     height: 150px;
