@@ -1,7 +1,7 @@
 body {
 	padding: 0;
 	margin: 0;
-	background: #4EE9D0;
+	background-color: #4EE9D0;
 	font-family: 'mostra-nuova','Mostra Nuova',sans-serif;
   overflow-x: hidden;
 }
@@ -98,6 +98,12 @@ section {
 }
 
 @media only screen and (max-width: 40em) {
+  body {
+    background-image: url(../diagram.svg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
   .row {
     width: 95%;
   }
@@ -107,6 +113,7 @@ section {
   }
   h2 {
     font-size: 3rem;
+    font-weight: 200;
     text-align: center;
   }
   section {
@@ -117,8 +124,11 @@ section {
     background: #1D79BB;
     border-color: #4093CF;
   }
+  .peaking-button img {
+    height: 31px;
+  }
   #diagram {
-    /*position: absolute;*/
+    display: none;
   }
   .floor {
     height: 185px;
